@@ -18,4 +18,7 @@ CREATE TABLE projects (
 INSERT INTO users (email, password, username)
 VALUES ('test1@test.com', '123123', 'Test1');
 
-SELECT * FROM users;
+INSERT INTO projects (title, description, imgurl) VALUES ('Construccion Terraza', 'Construccion terraza y quincho', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMbl00OZ12aMJzxIU9yR4_3SrnlidhNfRo8Q&s');
+INSERT INTO projects (title, description, imgurl) VALUES ('Remodelacion cocina', 'Se moderniza cocina', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMbl00OZ12aMJzxIU9yR4_3SrnlidhNfRo8Q&s');
+
+SELECT * FROM projects;
